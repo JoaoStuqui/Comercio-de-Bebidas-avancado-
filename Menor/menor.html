@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/db2c21d7e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS_Menor/style_menor.css">
+    <title>Página para maiores de idade</title>
+</head>
+<body>
+    <nav>
+        <div id="header">
+            <a href="">A Cervejaria</a>
+            <a href="">Nossas Cervejas</a>
+            <a href="">Delivery</a>
+        </div>
+        <a href="">Meu Carrinho<i class="fa-solid fa-cart-shopping"></i></i></a>
+    </nav>
+
+    <main>
+        <div id="cerveja">
+            <img src="img/imgcerveja.png">
+        </div>
+
+        <div id="mensagem">
+            <h1>Olá! Gostaria de te dar boas vindas a Cervejaria do João. <br>
+                Aqui estão nossas opções de bebidas:
+            </h1>
+        </div>
+
+        <div id="compra">
+            <div id="guarana">
+                <img src="img/imgGuaraná.png">
+            </div>
+            <h3 id="valor">
+                Refrigerante Guaraná<br>
+                R$ 10,00
+            </h3>
+            <div id="enviar">
+                <label>Qual a quantidade?</label>
+                <input type="number" id="quantidade" ">
+            </div>
+        </div>
+        <input type="submit" value="Comprar" id="botao_comprar" onclick="comprar()" >
+        
+    </main>
+    <script src="script_menor.js"></script>
+</body>
+</html>
